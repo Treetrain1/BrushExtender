@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "brushextender",
+  "version": "${version}",
+
+  "name": "Brush Extender",
+  "description": "Allows modders to add more brushable blocks without needing to make their own mixins.",
+  "authors": [
+    "Luna"
+  ],
+
+  "license": "LGPL-3.0",
+  "icon": "assets/brushextender/brushextender.png",
+
+  "environment": "*",
+
+  "entrypoints": {
+  },
+  "mixins": [
+    "brushextender.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric-api": ">=0.73.0",
+    "minecraft": ">=${minecraft_json_version}",
+    "java": ">=17"
+  },
+
+  "modmenu": {
+    "badges": [
+      "library"
+    ]
+  }
+}
