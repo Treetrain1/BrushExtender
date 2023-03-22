@@ -12,7 +12,6 @@ pluginManagement {
             setName("Fabric")
             setUrl("https://maven.fabricmc.net/")
         }
-        jcenter()
         maven {
             setName("Forge")
             setUrl("https://files.minecraftforge.net/maven/")
@@ -26,4 +25,4 @@ pluginManagement {
     }
 }
 
-rootProject.setName("Brush Extender")
+rootProject.setName("BrushExtender") // adding a space causes local maven publishing along with JitPack to fail

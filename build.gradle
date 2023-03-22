@@ -29,12 +29,12 @@ loom {
 	setRuntimeOnlyLog4j(true)
 
 	mixin {
-		setDefaultRefmapName("mixins.brushextender.refmap.json")
+		defaultRefmapName = "mixins.brushextender.refmap.json"
 	}
 
 	interfaceInjection {
 		// When enabled, injected interfaces from dependecies will be applied.
-		setEnableDependencyInterfaceInjection(false)
+		enableDependencyInterfaceInjection = false
 	}
 }
 
